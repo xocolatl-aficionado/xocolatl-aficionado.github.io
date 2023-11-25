@@ -1,1 +1,124 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Custom Software Shop</title>
+    <style>
+        @font-face {
+            font-family: 'Crimson_Text';
+            src: url('Crimson_Text/CrimsonText-Regular.ttf') format('truetype');
+        }
+        body {
+            font-family: 'Crimson_Text';
+            background: url('back-img.png') repeat; 
+            background-size: contain;
+            font-size: x-large;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            /* background-color: #3e3e3a;
+            color: #fff; */
+            /* padding: 1em 0; */
+            text-align: center;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        h1,h2 {
+            color: rgb(237, 96, 141);
+            font-weight: bold;
+            font-family: 'Crimson_Text'
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.5em;
+        }
+
+        @keyframes typing {
+            from { width: 0;; }
+            to { width: 100%; }
+        }
+
+        p#tagline {
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 0.5s steps(50, end);
+        }
+
+        p {
+            line-height: 1.6;
+            color: #030c15;
+            font-weight: bold;
+        }
+
+        .promo-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .promo-item {
+            flex: 0 1 calc(33.333% - 20px);
+            margin: 10px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .promo-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 32px 128px rgba(0, 0, 0, 1), 0 32px 128px rgba(0, 0, 0, 1);
+           
+        }
+
+        footer {
+            /* background-color: #333;
+            color: #fff; */
+            /* padding: 1em 0; */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>xocolatl</h1>
+        <h2>a.software.shop</h2>
+        <p id="tagline">Empowering You with Tailored Solutions</p>
+    </header>
+
+    <section>
+        <h2>Our Services</h2>
+        <div class="promo-container">
+            <div class="promo-item">
+                <h3>Custom Web Applications</h3>
+                <p>Boost your online presence with fully customized web applications designed to streamline your business processes.</p>
+            </div>
+            <div class="promo-item">
+                <h3>Mobile App Development</h3>
+                <p>Reach your audience on the go with mobile applications tailored to your specific requirements and user preferences.</p>
+            </div>
+            <div class="promo-item">
+                <h3>Legacy software maintenance</h3>
+                <p>We excel in creating robust and scalable enterprise solutions that work with your existing tech stack to optimize your internal operations and enhance productivity.</p>
+            </div>
+            <div class="promo-item">
+                <h3>Cloud native development</h3>
+                <p>Wanna brainstorm what it means to go to the cloud? Reach out. </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 xocolatl. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
